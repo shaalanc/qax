@@ -1,0 +1,22 @@
+# qax — Python / uv
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+uv.lock.old
+
+# Runtime state (never versioned — keys + sessions)
+.qax/
+.qax_env/
+
+# Playwright artifacts
+test-results/
+playwright-report/
+
+# qax pipeline output (project-generated)
+automation/reports/
+automation/data/
+automation/tests/
+automation/artifacts/
